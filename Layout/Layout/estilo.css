@@ -1,0 +1,61 @@
+.hearder{
+	background-color: gray;
+	text-align: center;
+	padding: 30px;
+}
+.hearder h1{
+	color: #FF8E2F;
+	font-size: 60px;
+
+}
+
+.menu{
+	background-color: #FF8E2F;
+	overflow: hidden; 
+}
+.menu a{
+	float: left;
+	display:block;
+	color:gray;
+	text-align: center;
+	padding: 20px; 
+}
+.menu a:hover {
+color: black;
+background-color: white;
+}
+
+.izquierda{
+	float: left;
+	width: 70%;
+	padding: 10px;
+
+}
+.item{
+	background-color: gray;
+	padding: 2px;
+	margin-top: 0px;
+}
+
+.imagen{
+	width: 200px;
+	margin-top: 0px;
+}
+body{
+	background-color:#FF8E2F ;
+}
+.derecha{
+	float: left;
+	width: 25%;
+	background-color: white;
+	padding: 20px;
+	margin-top: 15px;
+
+}
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	background-color: gray;
+	margin-top: 20px;
+}
