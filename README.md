@@ -1,2 +1,3 @@
 # Diego14351.github.io
-Pagina de ventas Morgan Tech
+Diego Alexis Morgan López
+Marco Antonio Díaz Durazo
