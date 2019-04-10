@@ -14,7 +14,24 @@
 
     .dropdown:hover>.dropdown-menu{
       display: block;
-      animation-delay: 10s;
+      
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);  
+  
+}
+
+.dropdown-menu {
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;  
+  animation-fill-mode: forwards; 
+  -webkit-transform: scale(1, 0);
+  display: block;
+  
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+}
+
     }
   .main-footer{
   background-color:#232222;
@@ -69,52 +86,52 @@
       
       <li class=" dropdown"><a href="javascript:void(0)" class="" data-toggle="dropdown">PRODUCTOS<b class=""></b> </a>
         <ul class="dropdown-menu ">
-          <li><a href="https://www.razer.com/gaming-laptops">Laptops</a></li>
-          <li><a href="https://www.razer.com/mobile">Móvil</a></li>
-          <li><a href="https://www.razer.com/gaming-mice-and-mats">Ratones y colchonetas</a></li>
-          <li><a href="https://www.razer.com/gaming-keyboards">Teclados</a></li>
-          <li><a href="https://www.razer.com/gaming-headsets-and-audio">Auriculares y audio</a></li>
-          <li><a href="https://www.razer.com/gaming-broadcaster">Locutor</a></li>
-          <li><a href="https://www.razer.com/console">Consola [PS4/XBOX]</a></li>
-          <li><a href="https://www.razer.com/desktops-and-networking">Escitorios, Displays y Routers</a></li>
-          <li><a href="https://www.razer.com/desktops-and-networking">Con licencia y colecciones</a></li>
-          <li><a href="https://www.razer.com/gaming-accessories/gear/shirts">Equipo, ropa y bolsos</a></li>
-          <li><a href="https://gold.razer.com/?_ga=2.260209545.543760641.1554220651-781313925.1554220651">Razer Gold & Silver</a></li>
+          <li><a href="https://www.razer.com/gaming-laptops" style="color: gray;">Laptops</a></li>
+          <li><a href="https://www.razer.com/mobile"style="color: gray;">Móvil</a></li>
+          <li><a href="https://www.razer.com/gaming-mice-and-mats"style="color: gray;">Ratones y colchonetas</a></li>
+          <li><a href="https://www.razer.com/gaming-keyboards"style="color: gray;">Teclados</a></li>
+          <li><a href="https://www.razer.com/gaming-headsets-and-audio"style="color: gray;">Auriculares y audio</a></li>
+          <li><a href="https://www.razer.com/gaming-broadcaster"style="color: gray;">Locutor</a></li>
+          <li><a href="https://www.razer.com/console"style="color: gray;">Consola [PS4/XBOX]</a></li>
+          <li><a href="https://www.razer.com/desktops-and-networking"style="color: gray;">Escitorios, Displays y Routers</a></li>
+          <li><a href="https://www.razer.com/desktops-and-networking"style="color: gray;">Con licencia y colecciones</a></li>
+          <li><a href="https://www.razer.com/gaming-accessories/gear/shirts"style="color: gray;">Equipo, ropa y bolsos</a></li>
+          <li><a href="https://gold.razer.com/?_ga=2.260209545.543760641.1554220651-781313925.1554220651"style="color: gray;">Razer Gold & Silver</a></li>
         </ul>
          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">SOFTWARE<b class=""></b> </a>
         <ul class="dropdown-menu">
-          <li><a href="https://www.razer.com/cortex">Juego de refuerzo de la corteza</a></li>
-          <li><a href="https://www.razer.com/synapse-3">Controladores Synapse 3IOT (beta)</a></li>
-          <li><a href="https://www.razer.com/chroma">Chroma RGB</a></li>
-          <li><a href="https://www.razer.com/chroma">SoftMiner (beta)</a></li>
-          <li><a href="https://www.razer.com/surround">Rodear</a></li>
-          <li><a href="https://www.razer.com/synapse-2">Synapse 2.0(legado)</a></li>
+          <li><a href="https://www.razer.com/cortex"style="color: gray;">Juego de refuerzo de la corteza</a></li>
+          <li><a href="https://www.razer.com/synapse-3"style="color: gray;">Controladores Synapse 3IOT (beta)</a></li>
+          <li><a href="https://www.razer.com/chroma"style="color: gray;">Chroma RGB</a></li>
+          <li><a href="https://www.razer.com/chroma"style="color: gray;">SoftMiner (beta)</a></li>
+          <li><a href="https://www.razer.com/surround"style="color: gray;">Rodear</a></li>
+          <li><a href="https://www.razer.com/synapse-2"style="color: gray;">Synapse 2.0(legado)</a></li>
         </ul>
          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">COMUNIDAD<b class=""></b> </a>
         <ul class="dropdown-menu">
-          <li><a href="https://www.razer.com/getstarted">Empezar</a></li>
-          <li><a href="https://insider.razer.com/index.php?_ga=2.96735771.543760641.1554220651-781313925.1554220651">Persona enterada</a></li>
-          <li><a href="https://www.razer.com/team">Esports</a></li>
-          <li><a href="https://www.razer.com/campaigns">Campañas</a></li>
-          <li><a href="https://developer.razer.com/?_ga=2.28653112.543760641.1554220651-781313925.1554220651">Desarrolladores</a></li>
-          <li><a href="https://www2.razer.com/chroma-workshop/blog">Taller de croma</a></li>
-          <li><a href="https://www.razer.com/campaigns/made-with-blade">Hecho con cuchilla</a></li>
-          <li><a href="https://www.razer.com/downloads">Medios y descargas</a></li>
-          <li><a href="https://www.razer.com/concepts">Conceptos</a></li>
+          <li><a href="https://www.razer.com/getstarted"style="color: gray;">Empezar</a></li>
+          <li><a href="https://insider.razer.com/index.php?_ga=2.96735771.543760641.1554220651-781313925.1554220651"style="color: gray;">Persona enterada</a></li>
+          <li><a href="https://www.razer.com/team"style="color: gray;">Esports</a></li>
+          <li><a href="https://www.razer.com/campaigns"style="color: gray;">Campañas</a></li>
+          <li><a href="https://developer.razer.com/?_ga=2.28653112.543760641.1554220651-781313925.1554220651"style="color: gray;">Desarrolladores</a></li>
+          <li><a href="https://www2.razer.com/chroma-workshop/blog"style="color: gray;">Taller de croma</a></li>
+          <li><a href="https://www.razer.com/campaigns/made-with-blade"style="color: gray;">Hecho con cuchilla</a></li>
+          <li><a href="https://www.razer.com/downloads"style="color: gray;">Medios y descargas</a></li>
+          <li><a href="https://www.razer.com/concepts"style="color: gray;">Conceptos</a></li>
         </ul>
          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">ALMACENAR<b class=""></b> </a>
         <ul class="dropdown-menu">
-          <li><a href="https://www.razer.com/store">RazerStore (en linea)</a></li>
-          <li><a href="https://www.razer.com/razerstores">RazerStore (venta al por menor)</a></li>
+          <li><a href="https://www.razer.com/store"style="color: gray;">RazerStore (en linea)</a></li>
+          <li><a href="https://www.razer.com/razerstores"style="color: gray;">RazerStore (venta al por menor)</a></li>
          
         </ul>
          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">APOYO<b class=""></b> </a>
         <ul class="dropdown-menu">
-          <li><a href="https://support.razer.com/?_ga=2.3889460.543760641.1554220651-781313925.1554220651">Sporte de producto</a></li>
-          <li><a href="https://www.razer.com/legal/returns-refunds">Devoluciones y reembolsos</a></li>
-          <li><a href="https://www.razer.com/razercare">Plan de protección RazerCare</a></li>
-          <li><a href="https://razerid.razer.com/?_ga=2.104668676.543760641.1554220651-781313925.1554220651">Registración del producto</a></li>
-          <li><a href="https://www.razer.com/warranty">Información de garantia</a></li>
+          <li><a href="https://support.razer.com/?_ga=2.3889460.543760641.1554220651-781313925.1554220651"style="color: gray;">Sporte de producto</a></li>
+          <li><a href="https://www.razer.com/legal/returns-refunds"style="color: gray;">Devoluciones y reembolsos</a></li>
+          <li><a href="https://www.razer.com/razercare"style="color: gray;">Plan de protección RazerCare</a></li>
+          <li><a href="https://razerid.razer.com/?_ga=2.104668676.543760641.1554220651-781313925.1554220651"style="color: gray;">Registración del producto</a></li>
+          <li><a href="https://www.razer.com/warranty"style="color: gray;">Información de garantia</a></li>
 
         </ul>
         
@@ -170,17 +187,19 @@
   </ol>
 
   <!-- IMAGENES DESPLAZABLES -->
-  <div class="carousel-inner" >
+  <div class="carousel-inner"style="width: 1340px; margin-right: 0px;" >
     <div class="item active">
-      <img  src="razer4.jpg" alt="" >
+
+      <a href="https://www.razer.com/gaming-audio/razer-nari-ultimate"><img  src="Razer18.jpg" alt="" ></a>
+
     </div>
 
-    <div class="item">
-      <img src="razer2.jpg" alt="" >
+    <div class="item" style="width: 1340px; margin-right: 0px;">
+      <a href="https://gold.razer.com/silver/promotions/kickstart?_ga=2.55811561.370174477.1554852311-1805399952.1554852311"><img src="Razer19.jpg" alt="" ></a>
     </div>
 
-    <div class="item" >
-      <img src="imagen1.jpg" alt="">
+    <div class="item" style="width: 1340px; margin-right: 0px;" >
+      <a href="https://www.razer.com/gaming-laptops/razer-blade"><img src="Razer17.jpg" alt=""></a>
     </div>
   </div>
 
